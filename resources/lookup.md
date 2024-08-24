@@ -104,6 +104,46 @@ justify-content aligns across the main axis
 align-items aligns along the cross axis
 align-content aligns the horizontal row(s) created by wrapping
 
+### CSS Reset
+
+```css
+/* CSS Reset: https://www.joshwcomeau.com/css/custom-css-reset/*/
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+* {
+    margin: 0;
+}
+
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+}
+
+input, button, textarea, select {
+    font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+}
+
+#root, #__next {
+    isolation: isolate;
+}
+```
+
 ## JS
 
 ### Include JS File
