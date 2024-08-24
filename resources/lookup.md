@@ -103,3 +103,13 @@ min-width: 0px;
 justify-content aligns across the main axis
 align-items aligns along the cross axis
 align-content aligns the horizontal row(s) created by wrapping
+
+## JS
+
+### Include JS File
+
+```html
+<head>
+  <script src="javascript.js" defer></script>
+</head>
+```
